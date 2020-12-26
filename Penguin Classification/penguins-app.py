@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
+from streamlit.uploaded_file_manager import UploadedFile
 
 st.write("""
 # Penguin Prediction App
@@ -12,13 +13,12 @@ Data obtained from the [palmerpenguins library](https://github.com/allisonhorst/
 
 st.sidebar.header('User Input Features')
 
-st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
-""")
+#st.sidebar.markdown("""[Example CSV input file](https://raw.githubusercontent.com/Hongyanlee0614/Streamlit/main/Penguin%20Classification/penguins_example.csv)""")
 
 # Collects user input features into dataframe
-uploaded_file = st.sidebar.file_uploader(
-    "Upload your input CSV file", type=["csv"])
+uploaded_file = None
+# uploaded_file = st.sidebar.file_uploader(
+#    "Upload your input CSV file", type=["csv"])
 if uploaded_file is not None:
     input_df = pd.read_csv(uploaded_file)
 else:
@@ -56,7 +56,7 @@ for col in encode:
     dummy = pd.get_dummies(df[col], prefix=col)
     df = pd.concat([df, dummy], axis=1)
     del df[col]
-df = df[:1]  # Selects only the first row (the user input data)
+
 
 # Displays the user input features
 st.subheader('User Input features')
@@ -64,6 +64,7 @@ st.subheader('User Input features')
 if uploaded_file is not None:
     st.write(df)
 else:
+    df = df[:1]
     st.write(
         'Awaiting CSV file to be uploaded. Currently using example input parameters (shown below).')
     st.write(df)
@@ -71,14 +72,12 @@ else:
 # Reads in saved classification model
 load_clf = pickle.load(open('penguins_clf.pkl', 'rb'))
 
-# Apply model to make predictions
-prediction = load_clf.predict(df)
-prediction_proba = load_clf.predict_proba(df)
-
 
 st.subheader('Prediction')
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
-st.write(penguins_species[prediction])
 
+prediction = load_clf.predict(df)
+prediction_proba = load_clf.predict_proba(df)
+st.write(penguins_species[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
