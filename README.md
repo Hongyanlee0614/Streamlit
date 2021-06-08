@@ -1,7 +1,7 @@
 # Streamlit
 
 ### Table of Contents
-- Multiclass
+- [Multiclass Clasification](#multiclass-classification)
   - [Iris Flower Classification](#iris-flower-classification)
 
 ### simple
