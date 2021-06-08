@@ -1,7 +1,7 @@
 # Streamlit
 
 ### References
-- [Data Professor](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q)
+- Data Professor ([Link to YouTube channel](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q))
 
 ### Table of Contents
 - [Multiclass Clasification](#multiclass-classification)
