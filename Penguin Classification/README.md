@@ -30,8 +30,10 @@ $ cd '.\Penguin Classification\'
 ```
 $ streamlit run penguins-model-building.py
 ```
-
-```
-```
-
 #### Open [http://localhost:8501](http://localhost:8501) with your browser to see the result.
+
+
+## Reference
+- Data Professor ([Link to YouTube channel](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q))
+- Pratik Mukherjee ([Link to Kaggle Notebook](https://www.kaggle.com/pratik1120/penguin-dataset-eda-classification-and-clustering))
+
