@@ -37,8 +37,6 @@ $ streamlit run penguins-model-building.py
 $ streamlit run penguins-app.py
 ```
 
-### Test the web app yourself, and you are done!
-
 #### Open [http://localhost:8501](http://localhost:8501) with your browser to see the result.
 
 
