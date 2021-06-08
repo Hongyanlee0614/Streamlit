@@ -1,7 +1,6 @@
 # Static Stock Price Visualization
 
 ![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/ss.PNG)
-![SS2](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/ss1.PNG)
 
 ## Install
 
