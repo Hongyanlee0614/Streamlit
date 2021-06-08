@@ -1,6 +1,6 @@
 # Penguin Classification
 
-![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/ss.PNG)
+![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Penguin%20Classification/ss.PNG)
 
 ## Install
 
