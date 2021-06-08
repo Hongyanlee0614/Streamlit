@@ -1,21 +1,21 @@
 # Static Stock Price Visualization
 
-![SS1](ss.png)
-![SS2](ss1.png)
+<img src="ss.png"
+     alt="Output Screenshot 1"
+     style="float: left; margin-right: 10px;" />
+<img src="ss1.png"
+     alt="Output Screenshot 2"
+     style="float: left; margin-right: 10px;" />
 
 ## Install
 
-[pip package](https://www.tensorflow.org/install/pip), to
-[enable GPU support](https://www.tensorflow.org/install/gpu), use a
-[Docker container](https://www.tensorflow.org/install/docker), and
-[build from source](https://www.tensorflow.org/install/source).
-Go to Conda's terminal, run the following
+Open your conda's terminal, run the following
 
 ```
 $ pip install streamlit
 $ pip install yfinance
 ```
-
+Paste the code in 
 Go to the folder where your python file resides
 
 ```
