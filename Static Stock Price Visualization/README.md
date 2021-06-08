@@ -1,11 +1,7 @@
 # Static Stock Price Visualization
 
-<img src="ss.png"
-     alt="Output Screenshot 1"
-     style="float: left; margin-right: 10px;" />
-<img src="ss1.png"
-     alt="Output Screenshot 2"
-     style="float: left; margin-right: 10px;" />
+![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/ss.PNG)
+![SS2](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/ss1.PNG)
 
 ## Install
 
