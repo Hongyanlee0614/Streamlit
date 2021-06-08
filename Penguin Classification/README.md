@@ -30,10 +30,20 @@ $ cd '.\Penguin Classification\'
 ```
 $ streamlit run penguins-model-building.py
 ```
+
+#### Now a pickle file named penguins_clf.pkl is generated. Run the following command to start working on/customizing the main file - penguins-app.py!
+
+```
+$ streamlit run penguins-app.py
+```
+
+### Test the web app yourself, and you are done!
+
 #### Open [http://localhost:8501](http://localhost:8501) with your browser to see the result.
 
 
 ## References
 - Data Professor ([Link to YouTube channel](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q))
 - Pratik Mukherjee ([Link to Kaggle Notebook](https://www.kaggle.com/pratik1120/penguin-dataset-eda-classification-and-clustering))
+- Allison Horst ([Link to Data Source](https://github.com/allisonhorst/palmerpenguins)
 
