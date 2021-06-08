@@ -2,7 +2,7 @@
 
 ### Table of Contents
 - [Multiclass Clasification](#multiclass-classification)
-  - [Iris Flower Classification](#iris-flower-classification)
+  - [Iris Flower Classification](#iris flower classification)
 
 ### simple
 [Simple Stock Price Visualization](https://github.com/Hongyanlee0614/Streamlit/tree/main/Static%20Stock%20Price%20Visualization)
