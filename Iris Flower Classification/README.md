@@ -1,6 +1,6 @@
 # Iris Flower Classification
 
-![SS1](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/ss.PNG)
+![SS](https://github.com/Hongyanlee0614/Streamlit/blob/main/Iris%20Flower%20Classification/ss.PNG)
 
 ## Install
 
@@ -9,7 +9,7 @@
 ```
 $ pip install streamlit
 ```
-#### Create a new python file in your preferred directory and paste the code in [this link](https://github.com/Hongyanlee0614/Streamlit/blob/main/Static%20Stock%20Price%20Visualization/stock_price_visualization.py) inside the file.
+#### Create a new python file in your preferred directory and paste the code in [this link](https://github.com/Hongyanlee0614/Streamlit/blob/main/Iris%20Flower%20Classification/iris-ml-app.py) inside the file.
 #### Go to the folder where your python file resides.
 
 ```
