@@ -1,4 +1,5 @@
 # Streamlit
+#### This repository contains all my works done on Streamlit, a platform which turns data scripts into shareable web apps in minutes.
 
 ### References
 - Data Professor ([Link to YouTube channel](https://www.youtube.com/channel/UCV8e2g4IWQqK71bbzGDEI4Q))
